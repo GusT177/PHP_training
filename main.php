@@ -99,12 +99,40 @@ $area = $pi * $ray**2;
 echo $area;
 */
 
-
+/*
 $num1 = 10;
 $num2 = 5;
 $op = '+';
+*/
 
 
+/*
+repetição
+
+While
+Do.. while
+
+For
+Foreach
+
+Do... while
+
+1. O que é do while?
+2. Diferença entre while e do...while
+
+EXIBIR O MENU
+PEDIR UM VALOR
+SE O VALOR FOR 3
+REPETIR O MENU
+*/
+
+
+do{
+  echo "Welcome to the game!". PHP_EOL;
+  echo "press 1 to open the game". PHP_EOL;
+  echo "press 2 to enter in configs". PHP_EOL;
+  $options = fgets(STDIN);
+}while($options != 1 && $options != 2);
 
 
 
